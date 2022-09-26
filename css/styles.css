@@ -12,3 +12,33 @@ body {
     font-family: "Combo", cursive;
   }
   
+
+  header nav ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0 ;
+    overflow: hidden;
+    background-color: #424942;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    display: block;
+
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #3b5998;
+}
