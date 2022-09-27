@@ -42,3 +42,18 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #3b5998;
 }
+
+.biography-card-img{grid-area: img;}
+.biography-card-header{grid-area: head;}
+.biography-card-profile{grid-area: pro;}
+.biography-card-description{grid-area: des;}
+
+.biography-card{
+    display: grid;
+    grid-template-areas: 
+    'img img head head head head'
+    'img img pro pro pro pro'
+    'img img des des des des';
+    grid-gap: 10px;
+    grid-template-rows: 20px 40px auto;
+}
