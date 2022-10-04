@@ -43,6 +43,75 @@ header nav ul li a:hover {
     background-color: #3b5998;
 }
 
+footer {
+    background-color: #424949;
+    color: #fff;
+    padding: 25px 0px;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    margin: 25px auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  footer nav ul li {
+    display: inline;
+  }
+  footer nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  footer nav li a :hover {
+    background-color: #3b5998;
+  }
+  footer p {
+    margin: 30px auto;
+    text-align: center;
+  }
+  footer hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    background-image: linear-gradient(to right, #424949, #fff, #424949);
+  }
+  
+
+
+
+
+#biography {
+    background-image: url(../img/abonened\ train\ tracks\,.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+  }
+  
+  #biography h3 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+  }
+  
+  .biography-card {
+    color: white;
+    width: 100%;
+    margin: 50px auto;
+    border: solid;
+    border-color: #3b5998;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: left;
+  }
+
+
+
 .biography-card-img{grid-area: img;}
 .biography-card-header{grid-area: head;}
 .biography-card-profile{grid-area: pro;}
