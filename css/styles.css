@@ -84,7 +84,7 @@ footer {
 
 
 #biography {
-    background-image: url(../img/abonened\ train\ tracks\,.jpg);
+    background-image: url(../img/buisness\ cards.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,6 +125,97 @@ footer {
     'img img des des des des';
     grid-gap: 10px;
     grid-template-rows: 20px 40px auto;
+}
+/*==== contact section=======*/
+.container-contact-outer {
+  background-image: url(../img/30-305993_s.jpg);
+  color: white;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 5% 0;
+  color: white;
+}
+
+.vertical-hr hr {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%, 100);
+  height: 40vh;
+  width: 1px;
+}
+.vertical-hr {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-from .name-first {
+  grid-area: fname;
+}
+.contact-from .name-last {
+  grid-area: lname;
+}
+.contact-from .email {
+  grid-area: email;
+}
+.contact-from .phone {
+  grid-area: phone;
+}
+.contact-from .message {
+  grid-area: message;
+}
+.contact-from button {
+  grid-area: button;
+}
+
+.contact-from {
+  display: grid;
+  justify-items: center;
+  justify-content: left;
+  grid-template-areas:
+    "fname lname"
+    "email phone"
+    "message message"
+    "button button";
+  grid-gap: 30px;
+}
+.contact-from input {
+  background: transparent;
+  color: black;
+  border: none;
+  border-bottom: 2px solid #fff;
+  min-width: 250px;
+  height: 50px;
+}
+.contact-from textarea {
+  background: transparent;
+  color: black;
+  border: none;
+  border-bottom: 2px solid #fff;
+  min-width: 550px;
+  height: 150px;
+}
+.contact-from::placeholder {
+  color: white;
+  padding-bottom: 10px;
+}
+.contact-from button {
+  height: 30px;
+  width: 200px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+}
+.contact-from button:hover {
+  background: rgba(255, 255 255, 0.5);
+  color: black;
+  -webkit-transform: 0.4s;
+  transition: 0.4s;
 }
 
 
