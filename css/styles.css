@@ -79,18 +79,34 @@ footer {
     background-image: linear-gradient(to right, #424949, #fff, #424949);
   }
   
+/* ========= prgarming feturex+++======*/
+#navigation {
+  margin-top: 50px;
+}
+
+#navigation h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.navigation-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 0;
+  padding: 0;
+}
+.navigation-grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation-grid-item i {
+  font-size: 5em;
+}
 
 
 
 
-#biography {
-    background-image: url(../img/buisness\ cards.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0px;
-  }
-  
   #biography h3 {
     text-align: center;
     font-size: 2em;
