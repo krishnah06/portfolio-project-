@@ -1,84 +1,81 @@
 /*======goblal==========*/
 body {
-    font-family: "Rubik", sans-serif;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  figcaption {
-    font-family: "Combo", cursive;
-  }
-  
-
-  header nav ul {
-    list-style-type: none ;
-    margin: 0;
-    padding: 0 ;
-    overflow: hidden;
-    background-color: #424942;
-
+  font-family: "Rubik", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+  font-family: "Combo", cursive;
 }
 
-header nav ul{
-    display: flex;
-    justify-content: flex-end;
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #424942;
 }
 
-header nav ul li{
-    display: block;
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
 
+header nav ul li {
+  display: block;
 }
 
 header nav ul li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
-    background-color: #3b5998;
+  background-color: #3b5998;
 }
 
 footer {
-    background-color: #424949;
-    color: #fff;
-    padding: 25px 0px;
-  }
-  
-  footer nav ul {
-    list-style: none;
-    margin: 25px auto;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-  }
-  footer nav ul li {
-    display: inline;
-  }
-  footer nav ul li a {
-    display: inline-block;
-    color: #fff;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  footer nav li a :hover {
-    background-color: #3b5998;
-  }
-  footer p {
-    margin: 30px auto;
-    text-align: center;
-  }
-  footer hr {
-    border: 0;
-    height: 1px;
-    background: #fff;
-    background-image: linear-gradient(to right, #424949, #fff, #424949);
-  }
-  
+  background-color: #424949;
+  color: #fff;
+  padding: 25px 0px;
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 25px auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+footer nav ul li {
+  display: inline;
+}
+footer nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+footer nav li a :hover {
+  background-color: #3b5998;
+}
+footer p {
+  margin: 30px auto;
+  text-align: center;
+}
+footer hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(to right, #424949, #fff, #424949);
+}
+
 /* ========= prgarming feturex+++======*/
 #navigation {
   margin-top: 50px;
@@ -104,44 +101,90 @@ footer {
   font-size: 5em;
 }
 
-
-
-
-  #biography h3 {
-    text-align: center;
-    font-size: 2em;
-    color: white;
-  }
-  
-  .biography-card {
-    color: white;
-    width: 100%;
-    margin: 50px auto;
-    border: solid;
-    border-color: #3b5998;
-    border-width: 1px;
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    text-align: left;
-  }
-
-
-
-.biography-card-img{grid-area: img;}
-.biography-card-header{grid-area: head;}
-.biography-card-profile{grid-area: pro;}
-.biography-card-description{grid-area: des;}
-
-.biography-card{
-    display: grid;
-    grid-template-areas: 
-    'img img head head head head'
-    'img img pro pro pro pro'
-    'img img des des des des';
-    grid-gap: 10px;
-    grid-template-rows: 20px 40px auto;
+#biography h3 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
 }
+
+.biography-card {
+  color: white;
+  width: 100%;
+  margin: 50px auto;
+  border: solid;
+  border-color: #3b5998;
+  border-width: 1px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: left;
+}
+
+.biography-card-img {
+  grid-area: img;
+}
+.biography-card-header {
+  grid-area: head;
+}
+.biography-card-profile {
+  grid-area: pro;
+}
+.biography-card-description {
+  grid-area: des;
+}
+
+.biography-card {
+  display: grid;
+  grid-template-areas:
+    "img img head head head head"
+    "img img pro pro pro pro"
+    "img img des des des des";
+  grid-gap: 10px;
+  grid-template-rows: 20px 40px auto;
+}
+
+#eduction h3 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.education-card {
+  color: white;
+  width: 100%;
+  margin: 50px auto;
+  border: solid;
+  border-color: #3b5998;
+  border-width: 1px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: left;
+}
+
+.eduction-card-img {
+  grid-area: img;
+}
+.education-card-header {
+  grid-area: head;
+}
+.education-card-profile {
+  grid-area: pro;
+}
+.education-card-description {
+  grid-area: des;
+}
+
+.education-card {
+  display: grid;
+  grid-template-areas:
+    "img img head head head head"
+    "img img pro pro pro pro"
+    "img img des des des des";
+  grid-gap: 10px;
+  grid-template-rows: 20px 40px auto;
+}
+
 /*==== contact section=======*/
 .container-contact-outer {
   background-image: url(../img/30-305993_s.jpg);
@@ -233,5 +276,3 @@ footer {
   -webkit-transform: 0.4s;
   transition: 0.4s;
 }
-
-
