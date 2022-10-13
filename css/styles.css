@@ -80,12 +80,17 @@ footer hr {
 #navigation {
   margin-top: 50px;
 }
-
-#navigation h2 {
+#intro p {
+  color: #fff;
+}
+#navigation h3 {
   text-align: center;
   font-size: 2em;
+  color: #fff;
 }
-
+#navigation p {
+  color: #fff;
+}
 .navigation-grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
